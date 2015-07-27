@@ -1,10 +1,12 @@
 Rails.application.routes.draw do
+  resources :pins
   devise_for :users
   root "pages#home"
 	get "about" => "pages#about"
 	get "pinteresting" => "pages#pinteresting"
 	get "bootstrap" => "pages#bootstrap"
 	get "bourbon" => "pages#bourbon"
+	get "foundation" => "pages#foundation"
 	
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

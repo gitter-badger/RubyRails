@@ -1,7 +1,12 @@
 <div class="jumbotron">
 	<h1>RubyRails Playground</h1>
+	<h4>Test, toy, code and play with Rails and Ruby.</h4>
 	<% if user_signed_in? %>
-	<h2>Let's Play</h2>
+		<h2>Let's Play</h2>
+		<%= link_to "pinteresting", pinteresting_path, class: "btn btn-primary" %>
+    <%= link_to "bootstrap", bootstrap_path, class: "btn btn-primary" %>
+    <%= link_to "bourbon", bourbon_path, class: "btn btn-primary" %>
+		<%= link_to "foundation", foundation_path, class: "btn btn-primary" %>
 	<% else %>
 	<p>
 		<%= link_to "Sign In", new_user_session_path, class: "btn btn-primary btn-lg" %>
