@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-uby '2.0.0'
+ruby '2.2.1'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -24,9 +24,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass'
 gem 'bourbon'
 gem 'neat'
+gem 'devise', '~> 3.5.1'
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+# gem 'bcrypt', '~> 3.1.7'	
 
 # Use Unicorn as the app server
 # gem 'unicorn'
