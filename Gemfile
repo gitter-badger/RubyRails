@@ -25,6 +25,7 @@ gem 'bootstrap-sass'
 gem 'bourbon'
 gem 'neat'
 gem 'devise', '~> 3.5.1'
+gem 'paperclip', '~> 4.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'	
