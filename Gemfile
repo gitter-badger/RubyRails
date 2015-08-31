@@ -29,6 +29,7 @@ gem 'devise', '~> 3.5.1'
 gem 'paperclip', '~> 4.3'
 gem 'aws-sdk', '~> 2.1.11'
 gem 'masonry-rails', '~> 0.2.4'
+gem 'jekyll', '~> 2.5.3'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'	
